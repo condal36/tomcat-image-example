@@ -1,4 +1,4 @@
-FROM centos:7
+FROM java
 MAINTAINER ccl_linc
 
 RUN yum install -y wget
