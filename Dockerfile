@@ -1,8 +1,7 @@
 FROM centos:7
 MAINTAINER ccl_linc
 
-RUN apt-get update -y
-RUN apt-get install -y wget
+RUN yum install -y wget
 
 RUN cd /
 
