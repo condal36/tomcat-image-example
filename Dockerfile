@@ -1,4 +1,4 @@
-FROM java
+FROM centos:7
 MAINTAINER ccl_linc
 RUN apt-get update
 RUN apt-get install -y wget
